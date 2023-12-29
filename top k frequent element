@@ -1,0 +1,13 @@
+const nums = [4,1,-1,2,-1,2,3]
+const k = 2 // two most frequent elements
+
+let hash = {}
+for (const num of nums) {
+    (!hash[num]) ? hash[num] = 1 : hash[num] = hash[num] +  1;
+}
+console.log(hash);
+
+const sortedArr = Object.entries(hash).sort(([,a], [,b])=> b -a ). slice(0, k);
+console.log(sortedArr);
+const res = sortedArr.map(ele => Number(ele[0]))
+// console.log(res);

@@ -1,4 +1,10 @@
 Dec 26/ 2023 ----------------->
-Q1. Anagram ----  Easy, String 
+Q1. Anagram -  Easy, String 
 Approach - split the string and sort it then compare using loop.
 
+Dec 27/ 2023 ----------------->
+Q1. Group Anagram - Medium, String
+Approach - split, sort, join , hashmap
+
+Dec 28/ 2023 ----------------->
+Q1. Top K frequent Elements - Medium, Array and Hashing
