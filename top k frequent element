@@ -10,4 +10,4 @@ console.log(hash);
 const sortedArr = Object.entries(hash).sort(([,a], [,b])=> b -a ). slice(0, k);
 console.log(sortedArr);
 const res = sortedArr.map(ele => Number(ele[0]))
-// console.log(res);
+console.log(res);
