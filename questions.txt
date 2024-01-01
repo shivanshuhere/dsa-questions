@@ -8,3 +8,6 @@ Approach - split, sort, join , hashmap
 
 Dec 28/ 2023 ----------------->
 Q1. Top K frequent Elements - Medium, Array and Hashing
+
+Jan 1/ 2023 ------------------>
+Q1. Baseball Game = Easy , Stack
